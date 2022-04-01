@@ -1,0 +1,36 @@
+body {
+    background-color: #2F4550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    color:#A0B1BB;
+}
+
+p, li {
+    color:#F4F4F9;
+}
+
+.botoes {
+    font-size: 20px;
+    background-color: #F4F4F9;
+    text-decoration:none ;
+    color:#2F4550;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.ext {
+    color:#F4F4F9;
+}
+
+.nome {
+    color: #FDF5EC;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong, em {
+    color: #FDF5EC;
+    font-size: 110%;
+}
