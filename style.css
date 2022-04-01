@@ -34,3 +34,7 @@ strong, em {
     color: #FDF5EC;
     font-size: 110%;
 }
+
+img {
+    border-radius: 10px;
+}
