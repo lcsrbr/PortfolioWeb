@@ -1,40 +1,71 @@
 body {
-    background-color: #2F4550;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-    color:#A0B1BB;
+img {
+    border-radius: 10px;
 }
 
-p, li {
-    color:#F4F4F9;
+#barraFixa {
+    background-color: #f1dac4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: end;
+    position: fixed ;
 }
 
 .botoes {
     font-size: 20px;
-    background-color: #F4F4F9;
     text-decoration:none ;
     color:#2F4550;
     padding: 5px 15px;
     border-radius: 10px;
 }
 
-.ext {
-    color:#F4F4F9;
+#nome { 
+    padding: 200px;
+    background-color: #0D0C1D;
+    text-align: center;
 }
 
-.nome {
-    color: #FDF5EC;
-    font-size: 125%;
-    font-family: Arial, Helvetica, sans-serif;
+#nome h1 {
+    color:#A69CAC ;
+    font-size: 150px;
 }
 
-strong, em {
-    color: #FDF5EC;
-    font-size: 110%;
+#nome h2 {
+    color: #F1DAC4;
+    font-size: 30px;
 }
 
-img {
-    border-radius: 10px;
+#apresentacao {
+    background-color: #161B33 ;
+    padding: 200px;
+    color: #A69CAC;
+}
+
+#imagens {
+    float: inline-end;
+}
+
+#habilidades {
+    background-color: #474973 ;
+    padding: 200px;
+    color: #F1DAC4;
+    text-align: end;
+}
+
+#blogs {
+    background-color: #A69CAC ;
+    padding: 200px;
+    color: #161B33;
+}
+
+
+
+#contato {
+    background-color: #F1DAC4 ;
+    padding: 200px;
+    color: #0D0C1D;
+    text-align: end;
 }

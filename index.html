@@ -8,33 +8,46 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<!--Barra Fixa, menu-->
+<div id="barraFixa">
+            <a href="#nome" class="botoes">início</a> |
+            <a href="#apresentacao" class="botoes">sobre mim</a> |
+            <a href="#habilidades" class="botoes">habilidades </a> |
+            <a href="#blogs" class="botoes">links</a> |
+            <a href="#contato" class="botoes">contatos</a> 
+</div>
 
-    <h1>Olá, me chamo <a class="nome">Lucas Ribeiro Moura!</a></h1>
-    <p> 
-        <a href="#aboutme" class="botoes">Sobre mim</a> |
-        <a href="#skills" class="botoes">Habilidades de destaque </a> |
-        <a href="#links" class="botoes">Meus links externos</a> 
-    </p> 
+<!-- Primeira parte, nome minimalista-->
+    <div id="nome">
+        <h1>oi,</h1>
+        <h2> meu nome é <span>lucas.</span></h2>
+    </div>
 
-    <img src="Foto.jpeg" alt="Foto do Lucas">
-    
-   <h2 id="aboutme">Sobre mim:</h2> 
+<!---Segunda parte, apresentação-->
+    <div id="apresentacao">
+  
+    <h2>Sobre mim:</h2> 
+        <p>
+            Me chamo Lucas Ribeiro Moura, moro em <em>Belo Horizonte (Minas Gerais, Brasil)</em>, sou formado em <em>Administração de Empresas</em>, e atualmente estudante em <strong> Desenvolvimento Web na Trybe!</strong>
+            <br>
+            Já trabalhei como call center, vendedor, assistente administrativo, e nos últimos sete anos atuei como analista de seguros. 
+            <br>
+            Por onde passei deixei <strong>melhorias e otimizações nas rotinas operacionais</strong>, além de manter um ótimo contato com os clientes.
+        <ul>
+            <li>  Adoro música, tocava em barzinho e tive banda; </li> 
+            <li>  Tenho explorado minhas habilidades na cozinha ultimamente; </li> 
+            <li> Tenho três gatos: Vitrola, Polenta, Tomilho. Clique na foto para admirar melhor!</li> 
+        </ul>
+        </p>
+        <div id="imagens"> 
+            <img src="Foto.jpeg" alt="Foto do Lucas" id="fotoLucas">
+            <a href= "Gatos.png"> <img src="Gatos.png" alt="Foto dos gatos"width="200px"> </a>
+         </div>
+    </div>
 
-    <p>
-        Moro em <em>Belo Horizonte (Minas Gerais, Brasil)</em>, sou formado em <em>Administração de Empresas</em>, e atualmente estudante em <strong> Desenvolvimento Web na Trybe!</strong>
-        <br>
-        Já trabalhei como call center, vendedor, assistente administrativo, e nos últimos sete anos atuei como analista de seguros. 
-        <br>
-        Por onde passei deixei <strong>melhorias e otimizações nas rotinas operacionais</strong>, além de manter um ótimo contato com os clientes.
-    <ul>
-        <li>  Adoro música, tocava em barzinho e tive banda; </li> 
-        <li>  Tenho explorado minhas habilidades na cozinha ultimamente; </li> 
-        <li> Tenho três gatos: Vitrola, Polenta, Tomilho. Clique na foto para admirar melhor!</li> 
-    </ul>
-        <a href= "Gatos.png"> <img src="Gatos.png" alt="Foto dos gatos"width="200px"> </a>
-    </p>
-
-    <h2 id="skills">Habilidades de destaque</h2>
+<!-- Terceira parte, habilidades-->
+    <div id="habilidades">
+    <h2>Habilidades de destaque</h2>
     <p>
         <ul>
             <li> Trabalho em equipe; </li> 
@@ -45,15 +58,26 @@
             <li> Resolução; </li> 
         </ul>
     </p>
-    
+    </div>
+
+<!-- Quarta parte, links-->
+<div id="blogs">
     <p>
         <h2 id="links">Meus Links Externos:</h2>
         <ul>
         <li><a href= "https://www.linkedin.com/in/lucas-moura-ab1b89bb" target="_blank" class="ext">LinkedIn </a></li> 
         <li> <a href= "https://github.com/lcsrbr" target="_blank" class="ext"> GitHub </a></li>
-    <li><a href= "https://anchor.fm/laurinhalero" target="_blank" class="ext"> Dica! Para ouvir enquanto cozinha/faxina/descansa  </a></li>
+        <li><a href= "https://anchor.fm/laurinhalero" target="_blank" class="ext"> Dica! Para ouvir enquanto cozinha/faxina/descansa  </a></li>
         </ul>
     </p>
+</div>
+
+<!-- Quinta parte, contato-->
+<div id="contato">
+    <h1>Contato</h1>
+        <li><a href= "https://www.linkedin.com/in/lucas-moura-ab1b89bb" target="_blank" class="ext">LinkedIn </a></li> 
+        <li> <a href= "https://github.com/lcsrbr" target="_blank" class="ext"> GitHub </a></li>
+</div>
 
 </body>
 </html>
