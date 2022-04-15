@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,57 +8,91 @@
     <title>Portifólio Web</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+
 <body>
+    <header id="cabecalho">
+        <p>portifólio</p>
+        <nav>
+            <ul>
+                <li><a href="#apresentacao"> início</a></li>
+                <li><a href="#sobreMim">sobre mim</a></li>
+                <li><a href="#pessoal">habilidades</a></li>
+                <li><a href="#contato">contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Olá, me chamo <a class="nome">Lucas Ribeiro Moura!</a></h1>
-    <p> 
-        <a href="#aboutme" class="botoes">Sobre mim</a> |
-        <a href="#skills" class="botoes">Habilidades de destaque </a> |
-        <a href="#links" class="botoes">Meus links externos</a> 
-    </p> 
+    <section id="apresentacao">
+        <div>
+            <p>oi,</p>
+        </div>
+        <article>
+            <p>meu nome é lucas.</p>
+        </article>
+    </section>
 
-    <img src="Foto.jpeg" alt="Foto do Lucas">
-    
-   <h2 id="aboutme">Sobre mim:</h2> 
+    <section id="sobreMim">
+        <div>
+            <img src="Foto.jpeg" alt="Foto do Lucas" id="fotoLucas">
+        </div>
 
-    <p>
-        Moro em <em>Belo Horizonte (Minas Gerais, Brasil)</em>, sou formado em <em>Administração de Empresas</em>, e atualmente estudante em <strong> Desenvolvimento Web na Trybe!</strong>
-        <br>
-        Já trabalhei como call center, vendedor, assistente administrativo, e nos últimos sete anos atuei como analista de seguros. 
-        <br>
-        Por onde passei deixei <strong>melhorias e otimizações nas rotinas operacionais</strong>, além de manter um ótimo contato com os clientes.
-    <ul>
-        <li>  Adoro música, tocava em barzinho e tive banda; </li> 
-        <li>  Tenho explorado minhas habilidades na cozinha ultimamente; </li> 
-        <li> Tenho três gatos: Vitrola, Polenta, Tomilho. Clique na foto para admirar melhor!</li> 
-    </ul>
-        <a href= "Gatos.png"> <img src="Gatos.png" alt="Foto dos gatos"width="200px"> </a>
-    </p>
+        <article>
+            <h2>sobre mim:</h2>
+            <p>
+                Me chamo Lucas Ribeiro Moura, moro em Belo Horizonte (Minas Gerais, Brasil), sou formado em
+                Administração de
+                Empresas, e atualmente estudante em Desenvolvimento Web na Trybe!
+            </p>
+            <p>
+                Já trabalhei como call center, vendedor, assistente administrativo, e nos últimos sete anos atuei como
+                analista de seguros.
+            </p>
 
-    <h2 id="skills">Habilidades de destaque</h2>
-    <p>
+            <p>
+                Por onde passei deixei melhorias e otimizações nas rotinas operacionais, além de manter um ótimo contato
+                com
+                os clientes.
+            </p>
+        </article>
+    </section>
+
+    <section id="pessoal">
+        <article>
+            <h2>pessoal</h2>
+            <ul>
+                <li> Adoro música, tocava em barzinho e tive banda; </li>
+                <li> Tenho explorado minhas habilidades na cozinha ultimamente; </li>
+                <li> Tenho três gatos: Vitrola, Polenta, Tomilho. Clique na foto para admirar melhor! </li>
+            </ul>
+        </article>
+        <div>
+            <img src="Gatos.png" alt="Foto dos gatos"> </a>
+        </div>
+        <section id="habilidades">
+            <h2>habilidades de destaque</h2>
+            <ul>
+                <li>Trabalho em equipe;</li>
+                <li>Liderança;</li>
+                <li>Proatividade;</li>
+                <li>Determinação;</li>
+                <li>Entrega;</li>
+                <li>Resolução;</li>
+            </ul>
+        </section>
+    </section>
+
+
+
+    <footer id="contato">
+        <h2>contato</h2>
         <ul>
-            <li> Trabalho em equipe; </li> 
-            <li> Liderança; </li> 
-            <li> Proatividade; </li> 
-            <li> Determinação; </li> 
-            <li> Entrega; </li> 
-            <li> Resolução; </li> 
+            <li><a href= "https://www.linkedin.com/in/lucas-moura-ab1b89bb" target="_blank" class="ext">LinkedIn </a></li> 
+        <li> <a href= "https://github.com/lcsrbr" target="_blank" class="ext"> GitHub </a></li>
+
         </ul>
-    </p>
-
-<p>
-
-</p>
-
-<p>
-    <h2 id="links">Meus Links Externos:</h2>
-    <ul>
-    <li><a href= "https://www.linkedin.com/in/lucas-moura-ab1b89bb" target="_blank" class="ext">LinkedIn </a></li> 
-    <li> <a href= "https://github.com/lcsrbr" target="_blank" class="ext"> GitHub </a></li>
-   <li><a href= "https://anchor.fm/laurinhalero" target="_blank" class="ext"> Dica! Para ouvir enquanto cozinha/faxina/descansa  </a></li>
-    </ul>
-</p>
-
+    </footer>
 </body>
+
+
 </html>

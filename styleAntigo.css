@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.barraFixa {
+    background-color: #f1dac4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: end;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+
+.botoes {
+    font-size: 20px;
+    text-decoration: none;
+    color:#2F4550;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#nome { 
+    padding: 200px;
+    background-color: #0D0C1D;
+    text-align: center;
+}
+
+#nome h1 {
+    color:#A69CAC ;
+    font-size: 150px;
+}
+
+#nome h2 {
+    color: #F1DAC4;
+    font-size: 30px;
+}
+
+#apresentacao {
+    background-color: #161B33 ;
+    padding: 200px;
+    color: #A69CAC;
+}
+
+#imagens {
+    float: inline-end;
+}
+
+#habilidades {
+    background-color: #474973 ;
+    padding: 200px;
+    color: #F1DAC4;
+    text-align: end;
+}
+
+#blogs {
+    background-color: #A69CAC ;
+    padding: 200px;
+    color: #161B33;
+}
+
+
+
+#contato {
+    background-color: #F1DAC4 ;
+    padding: 200px;
+    color: #0D0C1D;
+    text-align: end;
+}
+
+ 
