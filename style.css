@@ -1,71 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ACB8C9;
+    margin: auto;
+    background-color: #222425;
 }
 
-img {
-    border-radius: 10px;
+ img {
+    border-radius: 25px;
+    width: 300px;
 }
 
-#barraFixa {
-    background-color: #f1dac4;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: end;
-    position: fixed ;
+li {
+    list-style: none;
+    padding: 5px;
 }
 
-.botoes {
-    font-size: 20px;
-    text-decoration:none ;
-    color:#2F4550;
-    padding: 5px 15px;
-    border-radius: 10px;
+#cabecalho {
+    background-color: #222425;
+    color: #888377;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    display: inline;
+    width: 99%;
+    font-size: 130%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#nome { 
-    padding: 200px;
-    background-color: #0D0C1D;
-    text-align: center;
+#cabecalho p {
+    float: right;
+    margin-right: 80px;
 }
 
-#nome h1 {
-    color:#A69CAC ;
-    font-size: 150px;
+#cabecalho nav {
+    display: inline-block;
 }
 
-#nome h2 {
-    color: #F1DAC4;
-    font-size: 30px;
+#cabecalho li,a {
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+    color: #888377;
 }
 
 #apresentacao {
-    background-color: #161B33 ;
-    padding: 200px;
-    color: #A69CAC;
+    background-color: #222425;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#imagens {
-    float: inline-end;
+#apresentacao div {
+    text-align: center;
+    font-size: 100px;
+}
+
+#apresentacao article {
+    font-size: 80px;
+    text-align: center;
+}
+
+#sobreMim {
+    background-color: #353B3C;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sobreMim div {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#sobreMim article {
+    margin-left: 3%;
+    width: 800px;
+    text-align: justify;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+#pessoal {
+    background-color: #47545C;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pessoal article {
+    margin-left: 5%;
+    display: inline-block;
+    width: 300px;
+    padding: 50px;
+}
+
+#pessoal div {
+    display: inline-block;
+    width: 300px;
+    padding: 50px; 
 }
 
 #habilidades {
-    background-color: #474973 ;
-    padding: 200px;
-    color: #F1DAC4;
-    text-align: end;
+    display: inline-block;
+    width: 300px;
+    padding: 50px;
 }
-
-#blogs {
-    background-color: #A69CAC ;
-    padding: 200px;
-    color: #161B33;
-}
-
-
 
 #contato {
-    background-color: #F1DAC4 ;
-    padding: 200px;
-    color: #0D0C1D;
-    text-align: end;
+    background-color: #222425;
+    height: 100px;
+    display: inline-block;
+    width: 100%;
+    bottom: 0;
+    position: static;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contato h2 {
+    margin-right: 80px;
+    padding-left: 20px;
+}
+
+#contato ul {
+    margin-left: 35%;
+}
+#contato li,a {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: #888377;
 }
