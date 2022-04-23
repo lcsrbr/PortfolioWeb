@@ -8,7 +8,7 @@ body {
     background-color: #222425;
 }
 
- img {
+img {
     border-radius: 25px;
     width: 300px;
 }
@@ -25,7 +25,7 @@ li {
     top: 0;
     position: fixed;
     display: inline;
-    width: 99%;
+    width: 100%;
     font-size: 130%;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -39,7 +39,8 @@ li {
     display: inline-block;
 }
 
-#cabecalho li,a {
+#cabecalho li,
+a {
     display: inline;
     text-decoration: none;
     padding: 20px;
@@ -103,13 +104,31 @@ li {
 #pessoal div {
     display: inline-block;
     width: 300px;
-    padding: 50px; 
+    padding: 50px;
 }
 
 #habilidades {
     display: inline-block;
     width: 300px;
     padding: 50px;
+}
+
+#projetos {
+    background-color: #353B3C;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#projetos ul {
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+#projetos li {
+    padding: 10px;
 }
 
 #contato {
@@ -130,7 +149,9 @@ li {
 #contato ul {
     margin-left: 35%;
 }
-#contato li,a {
+
+#contato li,
+a {
     display: inline;
     padding: 20px;
     text-decoration: none;
